@@ -64,6 +64,7 @@ main {
     .content {
         margin: 0;
         margin-left: 40px;
+        margin-top: 32px;
     }
 
     .content h1 {
