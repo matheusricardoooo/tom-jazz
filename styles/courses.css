@@ -122,6 +122,16 @@ article {
         margin-left: 65px;
     }
 
+    .card1 {
+        margin: 0;
+        margin-left: 3px;
+    }
+
+    .card2 {
+        margin: 0;
+        margin-left: 3px;
+    }
+
     .card1:hover {
         transform: none;
     }
