@@ -44,7 +44,7 @@ main {
 }
 
 .img-main img {
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 @media screen and (max-width: 500px) {
