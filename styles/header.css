@@ -1,0 +1,62 @@
+header {
+    width: 90vw;
+    height: 20vh;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 5%;
+    padding: 0px 90px;
+}
+
+header .logo h1 {
+    width: 123px;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 40px;
+    font-style: black;
+}
+
+nav .links-dersktop {
+    display: flex;
+    gap: 60px;
+}
+
+nav .links-dersktop li {
+    list-style: none;
+}
+
+nav .links-dersktop li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "roboto";
+    font-weight: 600;
+    font-style: medium;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+nav .links-dersktop li a:hover {
+    color: #ED4D1B;
+    text-decoration: underline;
+}
+
+header .btn-header button {
+    width: 200px;
+    height: 48px;
+    border: 2px solid #000000;
+    background-color: #ED4D1B;
+    font-family: "roboto";
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    box-shadow: 5px 5px #000000;
+}
+
+header .btn-header button:hover {
+    transform: scale(1.2);
+}
+
+.links-mobile {
+    display: none;
+}
