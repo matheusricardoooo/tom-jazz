@@ -57,6 +57,58 @@ header .btn-header button:hover {
     transform: scale(1.2);
 }
 
+nav .links-mobile li {
+    list-style: none;
+}
+
+nav .links-mobile li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "roboto";
+    font-weight: 600;
+    font-style: medium;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
 .links-mobile {
     display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        width: 85vw;
+        height: 35vh;
+        margin: 0;
+        margin: 0px 8%;
+        flex-direction: column;
+        padding: 0;
+        padding: 32px 0px;
+    }
+
+    header .logo .mobile {
+        width: 206px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    nav .links-mobile {
+        display: grid;
+        grid-template-columns: 138px 1fr;
+        padding: 25px 8px;
+    }
+
+    nav .links-dersktop {
+        display: none;
+    }
+
+    header .logo .dersktop {
+        display: none;
+    }
+
+    header .btn-header button:hover {
+        transform: none;
+    }
+
 }
