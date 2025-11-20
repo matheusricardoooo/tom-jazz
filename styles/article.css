@@ -85,3 +85,37 @@ article {
 .content-article button:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 500px) {
+
+    article {
+        width: 85vw;
+        height: 250vh;
+        margin: 0;
+        margin: 0% 8%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card1, .card3 {
+        width: 270px;
+        margin: 0px 10px;
+    }
+
+    .card2, .card4 {
+        width: 270px;
+        margin: 0;
+        margin: 0px 20px;
+    }
+
+    .content-article h2 {
+        font-size: 30px;
+    }
+
+    .content-article button:hover {
+        transform: none;
+    }
+
+}
