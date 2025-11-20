@@ -5,7 +5,7 @@ main {
     width: 90vw;
     border: solid 2px #000;
     margin: 0% 5%;
-    padding: 30px 88px 193px 88px;
+    padding: 80px 88px 283px 88px;
 }
 
 main .content-main h2 {
@@ -15,7 +15,7 @@ main .content-main h2 {
     font-style: black;
 }
 
-main .content-main .color {
+.color {
     color: #ED4D1B;
 }
 
