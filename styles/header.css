@@ -55,6 +55,8 @@ header .btn-header button {
     font-style: medium;
     font-size: 20px;
     box-shadow: 5px 5px #000000;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 header .btn-header button:hover {

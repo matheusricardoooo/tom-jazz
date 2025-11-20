@@ -38,6 +38,8 @@ main .content-main button {
     font-style: medium;
     font-size: 20px;
     box-shadow: 5px 5px #000000;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 main .content-main button:hover {
