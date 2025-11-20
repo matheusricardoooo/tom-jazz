@@ -17,6 +17,10 @@ header .logo h1 {
     font-style: black;
 }
 
+header .logo .mobile {
+    display: none;
+}
+
 nav .links-dersktop {
     display: flex;
     gap: 60px;
@@ -88,6 +92,7 @@ nav .links-mobile li a {
     }
 
     header .logo .mobile {
+        display: block;
         width: 206px;
         text-align: center;
         font-size: 28px;
