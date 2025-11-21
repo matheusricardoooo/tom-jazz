@@ -97,7 +97,7 @@ article {
     }
 
     .cards {
-        width: 328px;
+        width: 268px;
         flex-direction: column;
     }
 
@@ -115,6 +115,7 @@ article {
     }
 
     .content-article h2 {
+        width: 280px;
         font-size: 30px;
     }
 
