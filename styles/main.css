@@ -69,18 +69,18 @@ main .img-main img {
     main .content-main h2 {
         width: 280px;
         font-size: 35px;
-        margin: 5% 14%;
+        margin: 5% 10%;
     }
 
     main .content-main p {
         width: 240px;
         font-size: 16px;
-        margin: 5% 14%;
+        margin: 5% 10%;
     }
 
     main .content-main button {
         margin: 0;
-        margin: 10% 15%;
+        margin: 10% 11%;
     }
 
     main .content-main button:hover {
