@@ -102,7 +102,6 @@ nav .links-mobile li a {
     }
 
     nav .links-mobile {
-        width: 158px;
         display: grid;
         grid-template-columns: 138px 1fr;
         padding: 25px 8px;
