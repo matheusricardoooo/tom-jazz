@@ -68,6 +68,7 @@ article {
 }
 
 .content-article button {
+    color: #000;
     margin-top: 30px;
     width: 200px;
     height: 48px;

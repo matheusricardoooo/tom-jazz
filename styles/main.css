@@ -28,6 +28,7 @@ main .content-main p {
 }
 
 main .content-main button {
+    color: #000;
     margin-top: 30px;
     width: 200px;
     height: 48px;
