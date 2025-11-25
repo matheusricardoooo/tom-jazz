@@ -123,4 +123,9 @@ article {
         transform: none;
     }
 
+    .vector {
+        margin: 0;
+        padding-left: 80%;
+    }
+
 }
